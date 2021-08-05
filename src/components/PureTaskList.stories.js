@@ -1,9 +1,9 @@
-import TaskList from "./TaskList";
+import PureTaskList from "./PureTaskList";
 import * as TaskStories from './Task.stories';
 
 export default {
-    component: TaskList,
-    title: 'TaskList',
+    component: PureTaskList,
+    title: 'PureTaskList',
     decorators: [() => ({template: '<div style="margin: 3em"><story/></div>'})],
     argTypes: {
         onPinTask: {},
@@ -12,11 +12,11 @@ export default {
 };
 
 const Template = (args) => ({
-    components: {TaskList},
+    components: {PureTaskList},
     setup() {
         return {args, ...TaskStories.actionsData};
     },
-    template: '<TaskList v-bind="args"/>'
+    template: '<PureTaskList v-bind="args"/>'
 });
 
 export const Default = Template.bind({});
