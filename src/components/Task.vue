@@ -2,7 +2,7 @@
   <div :class="classes">
     <label class="checkbox">
       <input type="checkbox" :checked="isChecked" disabled name="checked"/>
-      <span class="checkbox-custom" @click="archiveText"/>
+      <span class="checkbox-custom" @click="archiveTask"/>
     </label>
     <div class="title">
       <input type="text" :value="task.title" readonly placeholder="Input Title"/>
