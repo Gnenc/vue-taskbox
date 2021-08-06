@@ -11,6 +11,8 @@
 
 This template ships with the main Vue and Storybook configuration files you'll need to get up and running fast.
 
+https://www.chromatic.com/builds?appId=610be538593cfc003bc1edf4
+
 ## 🚅  Quick start
 
 1.  **Create the application.**
